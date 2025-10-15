@@ -1,0 +1,16 @@
+.contenedor {
+    display: flex;
+    gap: 10px;
+    background: #e6ecf3;
+    padding: 10px;
+    justify-content: space-around;
+}
+.item {
+    flex: 1;
+    background: #5182b9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 8px;
+    border-radius: 6px;
+}
