@@ -1,0 +1,124 @@
+/* ===== RESETEO ===== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      min-height: 100vh;
+      background: #f4f6fa;
+      color: #333;
+    }
+
+    /* ===== SIDEBAR ===== */
+    aside {
+      background-color: #14213d;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    aside h2 {
+      margin: 20px 0;
+      font-size: 1.2rem;
+    }
+
+    aside img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    aside ul {
+      list-style: none;
+      width: 100%;
+    }
+
+    aside ul li {
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin: 5px 0;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+
+    aside ul li:hover {
+      background-color: #1f4068;
+    }
+
+    /* ===== CONTENIDO ===== */
+    main {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .cartas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .carta {
+      flex: 1 1 200px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .carta h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .carta p {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #14213d;
+    }
+
+    .azul p {
+      color: white;
+    }
+
+    .azul{
+      flex: 1 1 200px;
+      background: #1f4068;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    /* ===== SECCIÓN DE GRÁFICOS ===== */
+    .Graficos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .Grafico {
+      flex: 1 1 400px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .Grafico h4 {
+      margin-bottom: 15px;
+      color: #555;
+    }
